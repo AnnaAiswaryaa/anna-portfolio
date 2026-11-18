@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anna Aiswarya · AI/ML Engineer</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#fafaf7;--surface:#fff;--text:#1b1f23;--muted:#5c6670;--line:#e3e5e0;--accent:#0f766e;--accent-soft:#e0f2ef;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101414;--surface:#171c1c;--text:#e8ecea;--muted:#9aa5a2;--line:#273030;--accent:#5eead4;--accent-soft:#16302d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101414;--surface:#171c1c;--text:#e8ecea;--muted:#9aa5a2;--line:#273030;--accent:#5eead4;--accent-soft:#16302d;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:18px;align-items:center;height:52px;overflow-x:auto;white-space:nowrap}
+nav b{margin-right:auto}
+nav a{color:var(--muted);text-decoration:none;font-size:14px}
+nav a:hover{color:var(--accent)}
+header{padding:64px 0 40px}
+.tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:4px 12px;border-radius:99px;font-size:13px;font-weight:600}
+h1{font-size:clamp(34px,6vw,52px);line-height:1.1;margin:16px 0 8px;letter-spacing:-.02em}
+.lead{font-size:18px;color:var(--muted);max-width:640px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;border:1px solid var(--accent);color:var(--accent)}
+.btn.p{background:var(--accent);color:var(--bg)}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font-size:24px;margin:0 0 20px;letter-spacing:-.01em}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0 0 12px;color:var(--muted);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.chips li{font-size:12px;padding:3px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-top:28px}
+.stat{border-left:3px solid var(--accent);padding-left:12px}
+.stat b{display:block;font-size:22px}.stat span{font-size:13px;color:var(--muted)}
+.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.row small{color:var(--muted)}
+.item{margin-bottom:18px}
+.item p{margin:4px 0 0;color:var(--muted);font-size:15px}
+.skills div{margin-bottom:14px}.skills h3{font-size:14px;color:var(--muted);margin:0 0 6px;font-weight:600}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Anna Aiswarya</b><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#certs">Certifications</a><a href="#contact">Contact</a></div></nav>
+
+<main class="wrap">
+<header>
+<span class="tag">AI &amp; ML Engineer · B.Tech 2027</span>
+<h1>Hi, I’m Anna. I build practical AI solutions.</h1>
+<p class="lead">B.Tech Computer Science (AI &amp; ML) student at SRM IST with hands-on experience in machine learning, deep learning, NLP and computer vision, from medical image classification to AI-based symptom analysis.</p>
+<div class="cta"><a class="btn p" href="#projects">See my work</a></div>
+<div class="stats">
+<div class="stat"><b>8.46</b><span>CGPA, B.Tech (2027)</span></div>
+<div class="stat"><b>3</b><span>Cloud &amp; AI certifications</span></div>
+<div class="stat"><b>Python</b><span>FastAPI · Flask · PyTorch</span></div>
+</div>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<p>I’m a Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning. My work spans medical image classification, fake news detection, lane detection and AI-based symptom analysis, using Python, PyTorch, Scikit-learn, NumPy and OpenCV.</p>
+<p>I enjoy turning models into things people can use, and I’m interested in building practical AI solutions. Outside coursework I’ve volunteered with NSS and Bharat Scouts &amp; Guides.</p>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>CuraBot: AI Medical Symptom Checker <a href="https://github.com/AnnaAiswaryaa/cura-bot" target="_blank" rel="noopener" style="font-size:13px;color:var(--accent)">GitHub ↗</a></h3>
+<p>Chatbot where users describe symptoms in natural language and receive possible conditions, precautions and health advice. A Random Forest classifier trained on a disease–symptom dataset handles prediction, and a language model handles the conversation. FastAPI backend with Claude API integration.</p>
+<ul class="chips"><li>FastAPI</li><li>LLM APIs</li><li>Scikit-learn</li><li>Hugging Face</li></ul></div>
+
+<div class="card"><h3>Alzheimer’s Classification with Grad-CAM</h3>
+<p>ResNet50 transfer-learning model for multiclass Alzheimer’s classification from brain MRI, with preprocessing, augmentation and Grad-CAM heatmaps so predictions can be inspected, not just trusted.</p>
+<ul class="chips"><li>PyTorch</li><li>Computer Vision</li><li>Explainability</li></ul></div>
+
+<div class="card"><h3>Expense Tracker API</h3>
+<p>REST backend with JWT authentication, budgets and spending analytics on a relational MySQL database.</p>
+<ul class="chips"><li>Flask</li><li>MySQL</li><li>JWT</li><li>REST</li></ul></div>
+
+<div class="card"><h3>AI Question Generator</h3>
+<p>Full-stack app that generates questions with AI, served by a FastAPI backend with an HTML/JS frontend, later redesigned for usability.</p>
+<ul class="chips"><li>FastAPI</li><li>JavaScript</li><li>Generative AI</li></ul></div>
+
+<div class="card"><h3>Email Spam Detector</h3>
+<p>ML-based spam classifier exposed through a FastAPI service and a single-page frontend.</p>
+<ul class="chips"><li>FastAPI</li><li>NLP</li><li>HTML/CSS/JS</li></ul></div>
+
+<div class="card"><h3>Movie Recommendation System <a href="https://github.com/abelsangeeth/movie-recommendation-system" target="_blank" rel="noopener" style="font-size:13px;color:var(--accent)">GitHub ↗</a></h3>
+<p>Content-based recommender using NLP techniques to suggest titles from item similarity.</p>
+<ul class="chips"><li>Python</li><li>NLP</li><li>Pandas</li></ul></div>
+
+<div class="card"><h3>Research: Chest X-ray Diagnosis</h3>
+<p>IEEE-style paper (in progress) on a diffusion-augmented vision-language hypergraph network with meta-learning for lung disease diagnosis, evaluated on MIMIC-CXR.</p>
+<ul class="chips"><li>Deep Learning</li><li>Research</li><li>Medical Imaging</li></ul></div>
+</div>
+</section>
+
+<section id="skills" class="skills">
+<h2>Skills</h2>
+<div><h3>Languages</h3><ul class="chips"><li>Python</li><li>C++</li><li>C</li><li>SQL</li><li>JavaScript (basics)</li></ul></div>
+<div><h3>Backend &amp; APIs</h3><ul class="chips"><li>FastAPI</li><li>Flask</li><li>REST</li><li>JSON</li><li>JWT auth</li><li>MySQL</li></ul></div>
+<div><h3>AI / ML</h3><ul class="chips"><li>PyTorch</li><li>Scikit-learn</li><li>OpenCV</li><li>NLP</li><li>LLM API calls</li><li>Hugging Face</li></ul></div>
+<div><h3>Data &amp; Tools</h3><ul class="chips"><li>Pandas</li><li>NumPy</li><li>Matplotlib</li></ul></div>
+</section>
+
+<section id="experience">
+<h2>Experience &amp; Education</h2>
+<div class="item"><div class="row"><b>Tech Intern, IIIT Kottayam</b><small>Jun – Jul 2025</small></div><p>Worked on project tasks under mentor guidance, joined technical discussions and gained exposure to software development practices.</p></div>
+<div class="item"><div class="row"><b>B.Tech CSE (AI &amp; ML), SRM IST Kattankulathur</b><small>2027 · CGPA 8.46/10</small></div></div>
+<div class="item"><div class="row"><b>Class XII, Kerala HSE Board</b><small>2023 · 95%</small></div></div>
+<div class="item"><div class="row"><b>Class X, Kerala Board of Public Examinations</b><small>2021 · 95%</small></div></div>
+<div class="item"><div class="row"><b>Volunteering</b><small>NSS 2021–23 · Bharat Scouts &amp; Guides 2018–21</small></div><p>Community service, awareness campaigns and leadership programmes.</p></div>
+</section>
+
+<section id="certs">
+<h2>Certifications</h2>
+<div class="grid">
+<div class="card"><h3>SAP Certified: Generative AI Developer</h3><p>SAP · Mar 2026 · <a href="https://www.credly.com/earner/earned/badge/d5ffdf90-3730-4f0a-9dc8-c26b3b0ad28f" target="_blank" rel="noopener" style="color:var(--accent)">Verify ↗</a></p></div>
+<div class="card"><h3>SAP Certified: Back-End Developer, ABAP Cloud</h3><p>SAP · Apr 2026 · <a href="https://www.credly.com/earner/earned/badge/4dd77817-e245-4af5-870d-657b714270a0" target="_blank" rel="noopener" style="color:var(--accent)">Verify ↗</a></p></div>
+<div class="card"><h3>AWS Certified Cloud Practitioner</h3><p>AWS · Feb 2026 · <a href="https://www.credly.com/earner/earned/badge/d37ab75a-6ec5-40b4-b17c-1e17085bd05d" target="_blank" rel="noopener" style="color:var(--accent)">Verify ↗</a></p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Interested in AI and ML projects, internships and collaborations. Email is the best way to reach me.</p>
+<div class="cta"><a class="btn p" href="mailto:aiswaryaanna9@gmail.com">aiswaryaanna9@gmail.com</a><a class="btn" href="https://github.com/AnnaAiswaryaa" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/anna-aiswarya-9a07112b5" target="_blank" rel="noopener">LinkedIn</a></div>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Anna Aiswarya · Kattankulathur, Tamil Nadu</div></footer>
+</body>
+</html>
